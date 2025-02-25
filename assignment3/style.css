@@ -1,0 +1,24 @@
+body {
+    color: #1c1fc8;
+    /* I picked this color because it fits the theme for green/blue earthy format */
+  }
+  h1 {
+    color: #1be710;
+  }
+  ul {
+    padding: 10px;
+    border-radius: 30px;
+    width: 250px;
+}
+    li {
+        color: #2570a5;
+    }
+    p {
+      font-weight: bold;
+    }
+    footer{
+      font-size: 10%;
+    }
+  /*
+    The color that I have styled inline for h1 is overriding the external style sheet. The inheritence also made the rest of the text in the body blue.
+  */
