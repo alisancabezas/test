@@ -10,6 +10,19 @@
             font-family: 'Times New Roman';
             background-color: darkseagreen;
         }
+        .container { 
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+            grid-gap: 10px; /* space between grid items */
+        }
+        .box {
+            background-color: rgb(205, 129, 177);
+            color: white;
+            padding: 20px;
+            font-size: 150%;
+            text-align: center;
+        }
      </style>
     </head>
 <body> 
@@ -23,6 +36,12 @@
         <li>Traveling can help you appreciate the beauty and diversity of the world.</li>
     </ul>
     <p>There are a variety of places that can peak your interest. Whether it's a beach, the suburbs, or a city with a beautiful skyline, there's a place for everyone. Not only will you figure out a new perspective in life, but you will have a once in a lifetime expereince.</p>
+   <!-- in class assignment-->
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
     <footer>
         <p>Reasons to Travel in 2025</p>
 
