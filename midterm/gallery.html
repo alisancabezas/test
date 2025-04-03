@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Gallery</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Pruden Construction">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+        }
+    
+        body {
+            background-color: rgb(10, 96, 125);;
+          color: #333;
+          line-height: 1.6;
+        }
+    
+        .section-title {
+          text-align: center;
+          font-size: 36px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+          color: whitesmoke;
+        }
+    
+        .image-row {
+          display: flex; /*to keep it in a straight */
+          justify-content: center;
+          gap: 30px;
+          flex-wrap: wrap;
+          padding: 20px;
+        }
+    
+        .image-box { /* to keep the image in a box */
+          width: 300px;
+          max-width: 100%;
+        }
+    
+        .image-box img { /* to set dimension of the image */
+          width: 100%;
+          border-radius: 10px;
+          height: auto;
+        }
+      </style>
+    </head>
+<body> 
+  <header>
+    <nav>
+        <div class="nav-container">
+            <img src="images1/pruden.jpg" alt="My Logo" class="logo" />
+        <ul class="nav-links"
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="section-title">Before and After</h2>
+    <div class="image-row">
+      <div class="image-box">
+        <img src="images1/beforepic.jpeg" alt="Before project">
+      </div>
+      <div class="image-box">
+        <img src="images1/afterpic.jpeg" alt="After project">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Other Work</h2>
+    <div class="image-row">
+      <div class="image-box">
+        <img src="images1/otherpic1.jpeg" alt="Other work 1">
+      </div>
+      <div class="image-box">
+        <img src="images1/otherpic2.jpeg" alt="Other work 2">
+      </div>
+      <div class="image-box">
+        <img src="images1/otherpic3.jpeg" alt="Other work 3">
+      </div>
+    </div>
+  </section>
+
+<footer>
+    <div class="footer-content">
+      <img src="images1/pruden.jpg" alt="Logo" class="footer-logo">
+      <p class="footer-text">© 2025 Pruden Construction. All rights reserved.</p>
+    </div>
+  </footer>

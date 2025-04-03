@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Home Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Pruden Construction">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <style>
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+        }
+    
+        body {
+          background-color: #ffffff;
+          color: #333;
+          line-height: 1.6;
+        }
+        .hero { /* to set the background image and text color, the banner */
+          background-image: url('images1/pruden.jpg');
+          background-size: cover;
+          background-position: center;
+          height: 300px;
+          display: flex; /* center text and keep it in the middle and in a straight box*/
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          color: white;
+          padding: 20px;
+        }
+    
+        .hero h1 {
+          font-size: 48px;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+        .hero-text {
+         display: flex;
+          flex-direction: column;
+         align-items: center;
+        gap: 10px;
+}
+
+        .section-title { /*h2, makes it in the center and sets the font size */
+          text-align: center;
+          font-size: 32px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+    
+        .image-grid {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 30px;
+          padding: 20px;
+        }
+    
+        .image-box {
+          text-align: center;
+          width: 200px;
+        }
+    
+        .image-box img {
+          width: 100%;
+          border-radius: 10px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+        .image-box p {
+          margin-top: 10px;
+          font-weight: bold;
+        }
+      </style>
+    </head>
+<body> 
+  <header>
+    <nav>
+        <div class="nav-container">
+            <img src="images1/pruden.jpg" alt="My Logo" class="logo" />
+        <ul class="nav-links"
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Pruden Construction</h1>
+    <div class="hero-text">
+    <p style="color: black;"> 30 years in Business</p>
+    <p style="color: black;">Free Estimates</p>
+    <p style="color: black;">Fully Licensed and Insured</p>
+    </div>
+  </section>
+
+  <h2 class="section-title">What We Do</h2>
+
+  <section class="image-grid">
+    <div class="image-box">
+      <img src="images1/driveways.jpeg" alt="Driveways">
+      <p>Driveways</p>
+    </div>
+    <div class="image-box">
+      <img src="images1/stairs.jpeg" alt="Stoops/Stairs">
+      <p>Stoops/Stairs</p>
+    </div>
+    <div class="image-box">
+      <img src="images1/lots.jpeg" alt="Parkiing Lots">
+      <p>Commercial Parking Lots</p>
+    </div>
+    <div class="image-box">
+      <img src="images1/patches.JPEG" alt="Patches">
+      <p>Patches</p>
+    </div>
+  </section>
+
+</body>
+
+
+  <footer>
+    <div class="footer-content">
+      <img src="images1/pruden.jpg" alt="Logo" class="footer-logo">
+      <p class="footer-text">© 2025 Pruden Construction. All rights reserved.</p>
+    </div>
+  </footer>
+</html>
