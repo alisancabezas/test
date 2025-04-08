@@ -32,7 +32,7 @@ const estimates = [
     resultBox.innerText = "No estimate found for that combination.";
   }
 
-  const colors = ["#3e88ef", "#fefff7", "#f7fff7"]; // blue, yellow, green
+  const colors = ["#3e88ef", "#fefff7", "#588970"]; // blue, yellow, green
   console.log("The first color in the array is:", colors[0]);
   
   const userName = prompt("What is your name?");
