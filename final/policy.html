@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Home Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Pruden Construction">
+     <link rel="stylesheet" type="text/css" href="style.css"></style>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-32PB0Q3W9H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'G-32PB0Q3W9H');
+</script>
+    </head>
+<body> 
+  <header>
+    <nav>
+        <div class="nav-container">
+            <img src="images1/pruden.JPG" alt="My Logo" class="logo" />
+        <ul class="nav-links">
+            <li><a href="index.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Home'})">Home</a></li>
+            <li><a href="about.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'About'})">About</a></li>
+            <li><a href="gallery.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Gallery'})">Gallery</a></li>
+            <li><a href="contact.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Contact'})">Contact</a></li>
+            <li><a href="affiliate.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Affiliate'})">Affiliate</a></li>
+            <li><a href="policy.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Policy'})">Policy</a></li>
+        </ul>
+    </nav>
+  </header>
+
+</script>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  h1, h2 {
+    color: #2c6eaf;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  #accept-btn {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  #accept-btn:hover {
+    background-color: #1a252f;
+  }
+</style>
+
+<div class="container">
+  <h1>Terms and Conditions</h1>
+
+  <h2>1. Introduction</h2>
+  <p>Welcome to Pruden Construction. By accessing our website, you agree to these terms and conditions. Please read them carefully.</p>
+
+  <h2>2. Services</h2>
+  <p>We provide construction related services including but not limited to residential, commercial, and general contracting. All services are subject to the scope and agreement defined in client contracts. Any customer complaints that come after the service is done will be dealt with accordingly. Additional charges/fees may be applies towards your final cost.</p>
+
+  <h2>3. Customer Responsibilities</h2>
+  <p>You agree to use this website for lawful purposes only and to be informed on truthful information. When contacting us for a inquiry, you agree that once all measurements, estimates and consultations are finalized - the price is also final.</p>
+
+  <h2>4. Privacy</h2>
+  <p>Your information is handled according to our privacy policy. We do not share your personal data without consent, except where required by law.</p>
+
+  <h2>5. Modifications</h2>
+  <p>We reserve the right to update these terms at any time. Continued use of the site and company constitutes acceptance of those changes.</p>
+
+  <h2>6. Contact</h2>
+  <p>If you have any questions, contact us at: <a href="malito:contact@pruden.com">contact@pruden.com</a></p>
+
+
+  <button id="accept-btn" onclick="gtag('event', 'CTR', {
+    event_category: 'Policy',
+    event_label: 'Accept Terms'
+  }); alert('Thank you! You have accepted the terms.');">
+    I Accept the Terms and Conditions
+  </button>
+</div>
+
+
+
+
+  <footer>
+    <div class="footer-content">
+      <img src="images1/pruden.JPG" alt="Logo" class="footer-logo">
+      <p class="footer-text">© 2025 Pruden Construction. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="final.js"></script>
+</body>
+</html>

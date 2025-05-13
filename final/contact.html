@@ -21,13 +21,17 @@
     <nav>
       <div class="nav-container">
         <img src="images1/pruden.JPG" alt="My Logo" class="logo" />
-    <ul class="nav-links"
+    <ul class="nav-links">
         <li><a href="index.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Home'})">Home</a></li>
         <li><a href="about.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'About'})">About</a></li>
         <li><a href="gallery.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Gallery'})">Gallery</a></li>
         <li><a href="contact.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Contact'})">Contact</a></li>
         <li><a href="affiliate.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Affiliate'})">Affiliate</a></li>
+        <li><a href="policy.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Policy'})">Policy</a></li>
     </ul>
+    <div id="greeting-container">
+      <span id="welcome-message"></span>
+    </div>
     </nav>
   </header>
   <style>
@@ -48,6 +52,8 @@
 </div>
 <h3 style="color:rgb(149, 224, 248);font-size: 30px";>Like what you see? Contact us for a free estimate!</h3>
 <p style="color:rgb(210, 222, 226);font-size: 25px";>Use our Estimate calculator to get an estimate price on your selected service and type of property!</p>
+
+<div class="estimate-box"
 <button onclick = "getEstimate()">Get Estimate</button>
   <select id="service"> <!--makes the drop down menu, option 1>-->
       <option value="Asphalt">Asphalt</option>
@@ -69,5 +75,6 @@
         </div>
       </footer>
       <script src="script.js"></script>
+      <script src="final.js"></script>
       </body>
       </html>

@@ -31,6 +31,15 @@
           color: white;
           padding: 20px;
         }
+        .hero-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+         background-color: rgba(0, 0, 0, 0.5); 
+         padding: 20px;
+         border-radius: 10px;
+}
     
         .hero h1 {
           font-size: 48px;
@@ -42,6 +51,8 @@
          display: flex;
           flex-direction: column;
          align-items: center;
+         color: white;
+         font-size: 18px;
         gap: 10px;
 }
 
@@ -91,21 +102,27 @@
     <nav>
         <div class="nav-container">
             <img src="images1/pruden.JPG" alt="My Logo" class="logo" />
-        <ul class="nav-links"
+        <ul class="nav-links">
             <li><a href="index.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Home'})">Home</a></li>
             <li><a href="about.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'About'})">About</a></li>
             <li><a href="gallery.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Gallery'})">Gallery</a></li>
             <li><a href="contact.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Contact'})">Contact</a></li>
             <li><a href="affiliate.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Affiliate'})">Affiliate</a></li>
+            <li><a href="policy.html" class="box" onclick="gtag('event', 'nav_click', {event_category: 'navigation', event_label: 'Policy'})">Policy</a></li>
         </ul>
+        <div id="greeting-container">
+          <span id="welcome-message"></span>
+        </div>
     </nav>
   </header>
   <section class="hero">
-    <h1>Pruden Construction</h1>
-    <div class="hero-text">
-    <p style="color: black;"> 30 years in Business</p>
-    <p style="color: black;">Free Estimates</p>
-    <p style="color: black;">Fully Licensed and Insured</p>
+    <div class="hero-content">
+      <h1>Pruden Construction</h1>
+      <div class="hero-text">
+        <p>30 years in Business</p>
+        <p>Free Estimates</p>
+        <p>Fully Licensed and Insured</p>
+      </div>
     </div>
   </section>
 
@@ -139,4 +156,5 @@
       <p class="footer-text">© 2025 Pruden Construction. All rights reserved.</p>
     </div>
   </footer>
+  <script src="final.js"></script>
 </html>
